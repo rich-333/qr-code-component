@@ -1,0 +1,31 @@
+body{
+    background-color: hsl(212, 45%, 89%);
+}
+
+.img-QR{
+    width: 280px;
+    height: 280px;
+    border-radius: 5%;
+    margin-top: 10px;
+}
+
+.card{
+    width: 280px;
+    height: 470px;
+    background-color: hsl(0, 0%, 100%);
+    margin: auto;
+    text-align: center;
+    border-radius: 5%;
+}
+.card, h3{
+    padding: 0 20px;
+}
+
+p{
+    padding: 0 25px;
+    line-height: 21px;
+    font-size: 15px;
+}
+.attribution{
+    margin-top: 60px;
+}
