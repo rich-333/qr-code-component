@@ -1,11 +1,14 @@
 body{
+    display: grid;
+    height: 100vh;
+    font-family: Outfit;
     background-color: hsl(212, 45%, 89%);
 }
 
 .img-QR{
     width: 280px;
     height: 280px;
-    border-radius: 5%;
+    border-radius: 20px;
     margin-top: 10px;
 }
 
@@ -15,13 +18,15 @@ body{
     background-color: hsl(0, 0%, 100%);
     margin: auto;
     text-align: center;
-    border-radius: 5%;
+    border-radius: 20px;
 }
 .card, h3{
+    font-weight: 700;
     padding: 0 20px;
 }
 
 p{
+    font-weight: 400;
     padding: 0 25px;
     line-height: 21px;
     font-size: 15px;
